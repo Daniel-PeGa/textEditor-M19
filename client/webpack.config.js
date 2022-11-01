@@ -58,7 +58,7 @@ module.exports = () => {
           use: {
             loader: 'babel-loader',
             options: {
-              pretest: ['@babel/pretest-env'],
+              presets: ['@babel/preset-env'],
               plugins: ['@babel/plugin-proposal-object-rest-spread', 
                         '@babel/transform-runtime']
             },
